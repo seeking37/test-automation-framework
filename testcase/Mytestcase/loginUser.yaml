@@ -1,0 +1,40 @@
+- baseInfo:
+    api_name: 用户登录
+    url: /index.php?m=Home&c=User&a=do_login
+    method: POST
+    header:
+      Content-Type: application/x-www-form-urlencoded
+#      Cookie: ${get_extract_data(Cookie)}
+
+  testCase:
+    - case_name: 正常登录-用户名密码正确
+      data:
+        username: 13800138006
+        password: 123456
+        verify_code: 1234
+      validation:
+        - contains: { 'status_code': 200 }
+        - contains: { 'msg': '登陆成功' }
+        - contains: { 'status': 1 }
+      extract:
+        Cookie: cookies
+
+    - case_name: 无效登录-用户名不存在
+      data:
+        username: 13800138001
+        password: 123456
+        verify_code: 1234
+      validation:
+        - contains: { 'status_code': 200 }
+        - contains: { 'msg': '账号不存在' }
+        - contains: { 'status': -1 }
+
+    - case_name: 无效登录-密码错误
+      data:
+        username: 13800138006
+        password: 1234567
+        verify_code: 1234
+      validation:
+        - contains: { 'status_code': 200 }
+        - contains: { 'msg': '密码错误' }
+        - contains: { 'status': -2 }

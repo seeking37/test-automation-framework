@@ -1,0 +1,1128 @@
+ERROR - 2025-05-09 14:49:52,076 - readyaml.py:28 -[readyaml:get_testcase_yaml] - [./testcase/Single interface/addUser.yaml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 14:52:15,313 - readyaml.py:28 -[readyaml:get_testcase_yaml] - [./testcase/Single interface/addUser.yaml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:27:41,870 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:27:49,975 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:28:53,177 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:31:32,239 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:34:16,033 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:34:29,216 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:37:06,363 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:39:21,499 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:41:19,824 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:41:41,708 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:41:41,708 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:42:18,274 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [./testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+ERROR - 2025-05-09 16:43:24,419 - readyaml.py:30 -[readyaml:get_testcase_yaml] - [testcase/Business interface/BusinessScenario.yml]文件未找到，请检查路径是否正确
+INFO - 2025-05-09 16:44:14,344 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：商品列表
+INFO - 2025-05-09 16:44:14,345 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-05-09 16:44:14,345 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：Get
+INFO - 2025-05-09 16:44:14,345 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：获取商品列表
+INFO - 2025-05-09 16:44:14,345 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': 'AC4aA2A3Eab9f6Eb981d8f5cC6C7a'}
+INFO - 2025-05-09 16:44:14,345 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:14,345 - sendrequest.py:157 -[sendrequest:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-05-09 16:44:14,349 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "cache": 0,
+  "error_code": "0000",
+  "goodsList": [
+    {
+      "goodsId": "18382788819",
+      "goods_count": "233",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "goods_name": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe599.00"
+    },
+    {
+      "goodsId": "33809635011",
+      "goods_count": "521",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "goods_name": "\u597d\u5947\u5c0f\u68ee\u6797\u5fc3\u94bb\u88c5\u7eb8\u5c3f\u88e4M22\u62c9\u62c9\u88e4L18/XL14\u8d85\u8584\u900f\u6c14\u88e4\u578b\u5c3f\u4e0d\u6e7f 1\u4ef6\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe5108.00"
+    },
+    {
+      "goodsId": "56996760797",
+      "goods_count": "1181",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u51bb\u5e72\u9e21\u5c0f\u80f8\u6574\u5757\u589e\u80a5\u8425\u517b\u53d1\u816e\u72d7\u72d7\u96f6\u98df\u65b0\u624b\u517b\u732b\u96f6\u98df\u5e7c\u732b\u96f6\u98df100g",
+      "original_price": "",
+      "unit_price": "\uffe517.80"
+    },
+    {
+      "goodsId": "82193785267",
+      "goods_count": "3000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u81ea\u8425\u3011ISB\u4f0a\u73ca\u5a1c\u610f\u5927\u5229\u6c34\u679c\u7cfb\u5217\u5ba0\u7269\u72ac\u732b\u6c90\u6d74\u9732\u9664\u81ed\u9999\u6ce2\u62a4\u6bdb\u7d20",
+      "original_price": "",
+      "unit_price": "\uffe5650.00"
+    },
+    {
+      "goodsId": "74190550836",
+      "goods_count": "1000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u65b0\u54c1\u96f60CM\u5d4c\u5165\u5f0f\u3011\u6d77\u5c14\u7535\u51b0\u7bb1410L\u5bb6\u7528\u6cd5\u5f0f\u56db\u95e8\u591a\u95e8\u5b98\u65b9\u6b63\u54c1",
+      "original_price": "",
+      "unit_price": "\uffe55746.00"
+    }
+  ],
+  "reason": "",
+  "request_id": "request_id",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-05-09 16:28:42",
+  "secache_time": 1746779322000,
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:14,350 - apiutil_business.py:197 -[apiutil_business:extract_data_list] - json提取到参数：{'goodsIds': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-05-09 16:44:14,351 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '0000'}}]
+INFO - 2025-05-09 16:44:14,351 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-05-09 16:44:14,351 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:14,355 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-05-09 16:44:14,355 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-05-09 16:44:14,355 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:14,355 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-05-09 16:44:14,356 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:14,356 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:14,356 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'pro_id': '18382788819', 'page': 1, 'size': 20}}
+INFO - 2025-05-09 16:44:14,378 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "api_type": "pinduoduo",
+  "cache": 0,
+  "call_args": {
+    "num_iid": "1620002566"
+  },
+  "client_ip": "106.6.39.223",
+  "error": "",
+  "error_code": "0000",
+  "execution_time": "0.437",
+  "goodsId": "33809635011",
+  "item": {
+    "AmountOnSale": 3188,
+    "CategoryId": 8484,
+    "Coupon": null,
+    "Delivery": {
+      "From": null,
+      "Info": null,
+      "MarkInfo": null,
+      "Postage": "\u5feb\u9012 \u514d\u8fd0\u8d39",
+      "To": null,
+      "extras": null
+    },
+    "DescUrl": null,
+    "Detail": "<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>",
+    "FansCount": null,
+    "ImageUrls": [
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"
+    ],
+    "MainImageVideo": null,
+    "OfferId": 1620002566,
+    "OriginalPriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 115,
+        "Range": "3"
+      }
+    ],
+    "PriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 95.4,
+        "Range": "3"
+      }
+    ],
+    "ProductFeatureTuples": [
+      {
+        "Item1": "\u9762\u6599\u6750\u8d28",
+        "Item2": "\u4eff\u76ae\u8349"
+      },
+      {
+        "Item1": "\u6210\u5206\u542b\u91cf",
+        "Item2": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09"
+      },
+      {
+        "Item1": "\u7248\u578b",
+        "Item2": "\u4fee\u8eab"
+      },
+      {
+        "Item1": "\u9886\u578b",
+        "Item2": "\u5706\u9886"
+      },
+      {
+        "Item1": "\u8863\u957f",
+        "Item2": "\u77ed\u6b3e"
+      },
+      {
+        "Item1": "\u662f\u5426\u5e26\u6bdb\u9886",
+        "Item2": "\u4e0d\u5e26\u6bdb\u9886"
+      },
+      {
+        "Item1": "\u4e3b\u98ce\u683c",
+        "Item2": "\u6c14\u8d28\u540d\u5a9b"
+      }
+    ],
+    "ProductFeatures": {
+      "\u4e3b\u98ce\u683c": "\u6c14\u8d28\u540d\u5a9b",
+      "\u6210\u5206\u542b\u91cf": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09",
+      "\u662f\u5426\u5e26\u6bdb\u9886": "\u4e0d\u5e26\u6bdb\u9886",
+      "\u7248\u578b": "\u4fee\u8eab",
+      "\u8863\u957f": "\u77ed\u6b3e",
+      "\u9762\u6599\u6750\u8d28": "\u4eff\u76ae\u8349",
+      "\u9886\u578b": "\u5706\u9886"
+    },
+    "RateCount": null,
+    "RetryCount": 0,
+    "SellCount": "\u5df2\u62fc4.2\u4e07\u4ef6",
+    "SellerId": null,
+    "SellerNick": null,
+    "ShopId": "461742",
+    "ShopInfo": null,
+    "ShopName": "\u679c\u679c\u5bb6\u6c14\u8d28\u5973\u88c5",
+    "ShopUrl": "http://yangkeduo.com/mall_page.html?mall_id=461742",
+    "SkuMaps": [
+      {
+        "AmountOnSale": 73,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357891",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 65,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357892",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 82,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357893",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357894",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 94,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357895",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 105,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357896",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 1051,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357897",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 88,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357898",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 80,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357899",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 660,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357900",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 126,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357901",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357902",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 98,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+        "Key": "1215:105309781;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107855",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 95,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg",
+        "Key": "1215:105309781;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107856",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg",
+        "Key": "1215:105309781;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107857",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg",
+        "Key": "1215:105309781;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107858",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 99,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg",
+        "Key": "1215:105309781;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107853",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 100,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg",
+        "Key": "1215:105309781;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107854",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      }
+    ],
+    "SkuProps": [
+      {
+        "IsImg": true,
+        "Prop": "\u989c\u8272",
+        "Value": [
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+            "name": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)",
+            "value": "1215:1115500378"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+            "name": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:1115501666"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+            "name": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:105309781"
+          }
+        ]
+      },
+      {
+        "IsImg": false,
+        "Prop": "\u5c3a\u7801",
+        "Value": [
+          {
+            "name": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+            "value": "1226:119128"
+          },
+          {
+            "name": "M\uff0890-100\u65a4\uff09",
+            "value": "1226:96784"
+          },
+          {
+            "name": "L\uff08100-110\u65a4\uff09",
+            "value": "1226:33651"
+          },
+          {
+            "name": "XL\uff08110-120\u65a4\uff09",
+            "value": "1226:33652"
+          },
+          {
+            "name": "2XL\uff08120-130\u65a4\uff09",
+            "value": "1226:33653"
+          },
+          {
+            "name": "3XL\uff08130-140\u65a4\uff09",
+            "value": "1226:33656"
+          }
+        ]
+      }
+    ],
+    "SourceType": 6,
+    "Subject": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+    "Tag": null,
+    "Unit": null,
+    "UserId": "461742",
+    "_ddf": "app",
+    "format_check": "ok"
+  },
+  "reason": "",
+  "request_id": "gw-4.63510267214bd",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-05-09 16:44:14",
+  "secache_time": 1666253415,
+  "server_memory": "0.84MB",
+  "server_time": "Beijing/2023-10-20 16:10:15",
+  "translate_engine": "baidu",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:14,383 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'error_code': '0000'}}]
+INFO - 2025-05-09 16:44:14,384 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'error_code': '0000'}，等于预期结果：{'error_code': '0000'}
+INFO - 2025-05-09 16:44:14,384 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:14,388 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：提交订单
+INFO - 2025-05-09 16:44:14,388 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/placeAnOrder
+INFO - 2025-05-09 16:44:14,388 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:14,388 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：详情页面选择规格，提交订单
+INFO - 2025-05-09 16:44:14,388 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:14,388 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:14,388 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'goods_id': '18382788819', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': 127839112, 'price': '128', 'freight_insurance': '0.00', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': 13800000000, 'address': '北京市海淀区西三环北路74号院4栋3单元1008'}}}
+INFO - 2025-05-09 16:44:14,407 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "crateTime": "2025-05-09 16:44:14",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u63d0\u4ea4\u8ba2\u5355\u6210\u529f",
+  "orderNumber": "964230923442489580451",
+  "translate_language": "zh-CN",
+  "userId": "0522349556374769536"
+}
+
+INFO - 2025-05-09 16:44:14,407 - apiutil_business.py:170 -[apiutil_business:extract_data] - json提取到参数：{'orderNumber': '964230923442489580451'}
+INFO - 2025-05-09 16:44:14,408 - apiutil_business.py:170 -[apiutil_business:extract_data] - json提取到参数：{'userId': '0522349556374769536'}
+INFO - 2025-05-09 16:44:14,408 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '提交订单成功'}}]
+INFO - 2025-05-09 16:44:14,408 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '提交订单成功'}，等于预期结果：{'message': '提交订单成功'}
+INFO - 2025-05-09 16:44:14,408 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:14,422 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：订单支付
+INFO - 2025-05-09 16:44:14,422 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+INFO - 2025-05-09 16:44:14,422 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:14,422 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：订单支付
+INFO - 2025-05-09 16:44:14,422 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:14,422 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:14,422 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '964230923442489580451', 'userId': '0522349556374769536', 'timeStamp': '1746780254'}}
+INFO - 2025-05-09 16:44:14,439 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "createTime": "2025-05-09 16:44:14",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u8ba2\u5355\u652f\u4ed8\u6210\u529f",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:14,440 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '订单支付成功'}}]
+INFO - 2025-05-09 16:44:14,440 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '订单支付成功'}，等于预期结果：{'message': '订单支付成功'}
+INFO - 2025-05-09 16:44:14,440 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:14,448 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：校验订单状态
+INFO - 2025-05-09 16:44:14,448 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/checkOrderStatus
+INFO - 2025-05-09 16:44:14,448 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:14,448 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：校验商品订单状态
+INFO - 2025-05-09 16:44:14,448 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:14,448 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:14,448 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '964230923442489580451', 'timeStamp': '1746780254'}}
+INFO - 2025-05-09 16:44:14,470 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "",
+  "error_code": "",
+  "queryTime": "2025-05-09 16:44:14",
+  "status": "0",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:14,470 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'status': '0'}}]
+INFO - 2025-05-09 16:44:14,470 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'status': '0'}，等于预期结果：{'status': '0'}
+INFO - 2025-05-09 16:44:14,470 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:34,432 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：商品列表
+INFO - 2025-05-09 16:44:34,432 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-05-09 16:44:34,432 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：Get
+INFO - 2025-05-09 16:44:34,432 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：获取商品列表
+INFO - 2025-05-09 16:44:34,432 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': 'AC4aA2A3Eab9f6Eb981d8f5cC6C7a'}
+INFO - 2025-05-09 16:44:34,432 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:34,432 - sendrequest.py:157 -[sendrequest:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-05-09 16:44:50,512 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "cache": 0,
+  "error_code": "0000",
+  "goodsList": [
+    {
+      "goodsId": "18382788819",
+      "goods_count": "233",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "goods_name": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe599.00"
+    },
+    {
+      "goodsId": "33809635011",
+      "goods_count": "521",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "goods_name": "\u597d\u5947\u5c0f\u68ee\u6797\u5fc3\u94bb\u88c5\u7eb8\u5c3f\u88e4M22\u62c9\u62c9\u88e4L18/XL14\u8d85\u8584\u900f\u6c14\u88e4\u578b\u5c3f\u4e0d\u6e7f 1\u4ef6\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe5108.00"
+    },
+    {
+      "goodsId": "56996760797",
+      "goods_count": "1181",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u51bb\u5e72\u9e21\u5c0f\u80f8\u6574\u5757\u589e\u80a5\u8425\u517b\u53d1\u816e\u72d7\u72d7\u96f6\u98df\u65b0\u624b\u517b\u732b\u96f6\u98df\u5e7c\u732b\u96f6\u98df100g",
+      "original_price": "",
+      "unit_price": "\uffe517.80"
+    },
+    {
+      "goodsId": "82193785267",
+      "goods_count": "3000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u81ea\u8425\u3011ISB\u4f0a\u73ca\u5a1c\u610f\u5927\u5229\u6c34\u679c\u7cfb\u5217\u5ba0\u7269\u72ac\u732b\u6c90\u6d74\u9732\u9664\u81ed\u9999\u6ce2\u62a4\u6bdb\u7d20",
+      "original_price": "",
+      "unit_price": "\uffe5650.00"
+    },
+    {
+      "goodsId": "74190550836",
+      "goods_count": "1000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u65b0\u54c1\u96f60CM\u5d4c\u5165\u5f0f\u3011\u6d77\u5c14\u7535\u51b0\u7bb1410L\u5bb6\u7528\u6cd5\u5f0f\u56db\u95e8\u591a\u95e8\u5b98\u65b9\u6b63\u54c1",
+      "original_price": "",
+      "unit_price": "\uffe55746.00"
+    }
+  ],
+  "reason": "",
+  "request_id": "request_id",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-05-09 16:28:42",
+  "secache_time": 1746779322000,
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:50,516 - apiutil_business.py:197 -[apiutil_business:extract_data_list] - json提取到参数：{'goodsIds': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-05-09 16:44:50,517 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '0000'}}]
+INFO - 2025-05-09 16:44:50,519 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-05-09 16:44:50,519 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:50,519 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：商品详情
+INFO - 2025-05-09 16:44:50,519 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2025-05-09 16:44:50,519 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:50,519 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：获取商品详情
+INFO - 2025-05-09 16:44:50,519 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:50,519 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:50,519 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'pro_id': '18382788819', 'page': 1, 'size': 20}}
+INFO - 2025-05-09 16:44:50,534 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "api_type": "pinduoduo",
+  "cache": 0,
+  "call_args": {
+    "num_iid": "1620002566"
+  },
+  "client_ip": "106.6.39.223",
+  "error": "",
+  "error_code": "0000",
+  "execution_time": "0.437",
+  "goodsId": "82193785267",
+  "item": {
+    "AmountOnSale": 3188,
+    "CategoryId": 8484,
+    "Coupon": null,
+    "Delivery": {
+      "From": null,
+      "Info": null,
+      "MarkInfo": null,
+      "Postage": "\u5feb\u9012 \u514d\u8fd0\u8d39",
+      "To": null,
+      "extras": null
+    },
+    "DescUrl": null,
+    "Detail": "<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>",
+    "FansCount": null,
+    "ImageUrls": [
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg",
+      "https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg",
+      "https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"
+    ],
+    "MainImageVideo": null,
+    "OfferId": 1620002566,
+    "OriginalPriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 115,
+        "Range": "3"
+      }
+    ],
+    "PriceRangeInfos": [
+      {
+        "ConvertPrice": 0,
+        "Price": 95.4,
+        "Range": "3"
+      }
+    ],
+    "ProductFeatureTuples": [
+      {
+        "Item1": "\u9762\u6599\u6750\u8d28",
+        "Item2": "\u4eff\u76ae\u8349"
+      },
+      {
+        "Item1": "\u6210\u5206\u542b\u91cf",
+        "Item2": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09"
+      },
+      {
+        "Item1": "\u7248\u578b",
+        "Item2": "\u4fee\u8eab"
+      },
+      {
+        "Item1": "\u9886\u578b",
+        "Item2": "\u5706\u9886"
+      },
+      {
+        "Item1": "\u8863\u957f",
+        "Item2": "\u77ed\u6b3e"
+      },
+      {
+        "Item1": "\u662f\u5426\u5e26\u6bdb\u9886",
+        "Item2": "\u4e0d\u5e26\u6bdb\u9886"
+      },
+      {
+        "Item1": "\u4e3b\u98ce\u683c",
+        "Item2": "\u6c14\u8d28\u540d\u5a9b"
+      }
+    ],
+    "ProductFeatures": {
+      "\u4e3b\u98ce\u683c": "\u6c14\u8d28\u540d\u5a9b",
+      "\u6210\u5206\u542b\u91cf": "71%\uff08\u542b\uff09\u201480%\uff08\u542b\uff09",
+      "\u662f\u5426\u5e26\u6bdb\u9886": "\u4e0d\u5e26\u6bdb\u9886",
+      "\u7248\u578b": "\u4fee\u8eab",
+      "\u8863\u957f": "\u77ed\u6b3e",
+      "\u9762\u6599\u6750\u8d28": "\u4eff\u76ae\u8349",
+      "\u9886\u578b": "\u5706\u9886"
+    },
+    "RateCount": null,
+    "RetryCount": 0,
+    "SellCount": "\u5df2\u62fc4.2\u4e07\u4ef6",
+    "SellerId": null,
+    "SellerNick": null,
+    "ShopId": "461742",
+    "ShopInfo": null,
+    "ShopName": "\u679c\u679c\u5bb6\u6c14\u8d28\u5973\u88c5",
+    "ShopUrl": "http://yangkeduo.com/mall_page.html?mall_id=461742",
+    "SkuMaps": [
+      {
+        "AmountOnSale": 73,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357891",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 65,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357892",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 82,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357893",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357894",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 94,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357895",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 105,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+        "Key": "1215:1115500378;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357896",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)"
+        }
+      },
+      {
+        "AmountOnSale": 1051,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357897",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 88,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357898",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 80,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357899",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 660,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357900",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 126,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357901",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 89,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+        "Key": "1215:1115501666;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "57114357902",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 98,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+        "Key": "1215:105309781;1226:119128",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107855",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 95,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg",
+        "Key": "1215:105309781;1226:96784",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107856",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "M\uff0890-100\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg",
+        "Key": "1215:105309781;1226:33651",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107857",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "L\uff08100-110\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 97,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg",
+        "Key": "1215:105309781;1226:33652",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107858",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "XL\uff08110-120\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 99,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg",
+        "Key": "1215:105309781;1226:33653",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107853",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "2XL\uff08120-130\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      },
+      {
+        "AmountOnSale": 100,
+        "ImageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg",
+        "Key": "1215:105309781;1226:33656",
+        "OriginalPrice": 115,
+        "Price": 95.4,
+        "SkuId": "103851107854",
+        "SpecAttributes": {
+          "\u5c3a\u7801": "3XL\uff08130-140\u65a4\uff09",
+          "\u989c\u8272": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09"
+        }
+      }
+    ],
+    "SkuProps": [
+      {
+        "IsImg": true,
+        "Prop": "\u989c\u8272",
+        "Value": [
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg",
+            "name": "\u7c89\u8272\u4e24\u4ef6\u5957(\u5916\u5957+\u88d9\u5b50)",
+            "value": "1215:1115500378"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg",
+            "name": "\u7c73\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:1115501666"
+          },
+          {
+            "imageUrl": "http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg",
+            "name": "\u84dd\u8272\u4e24\u4ef6\u5957\uff08\u5916\u5957+\u88d9\u5b50\uff09",
+            "value": "1215:105309781"
+          }
+        ]
+      },
+      {
+        "IsImg": false,
+        "Prop": "\u5c3a\u7801",
+        "Value": [
+          {
+            "name": "S\uff0890\u65a4\u4ee5\u4e0b\uff09",
+            "value": "1226:119128"
+          },
+          {
+            "name": "M\uff0890-100\u65a4\uff09",
+            "value": "1226:96784"
+          },
+          {
+            "name": "L\uff08100-110\u65a4\uff09",
+            "value": "1226:33651"
+          },
+          {
+            "name": "XL\uff08110-120\u65a4\uff09",
+            "value": "1226:33652"
+          },
+          {
+            "name": "2XL\uff08120-130\u65a4\uff09",
+            "value": "1226:33653"
+          },
+          {
+            "name": "3XL\uff08130-140\u65a4\uff09",
+            "value": "1226:33656"
+          }
+        ]
+      }
+    ],
+    "SourceType": 6,
+    "Subject": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+    "Tag": null,
+    "Unit": null,
+    "UserId": "461742",
+    "_ddf": "app",
+    "format_check": "ok"
+  },
+  "reason": "",
+  "request_id": "gw-4.63510267214bd",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-05-09 16:44:50",
+  "secache_time": 1666253415,
+  "server_memory": "0.84MB",
+  "server_time": "Beijing/2023-10-20 16:10:15",
+  "translate_engine": "baidu",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:50,534 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'error_code': '0000'}}]
+INFO - 2025-05-09 16:44:50,534 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'error_code': '0000'}，等于预期结果：{'error_code': '0000'}
+INFO - 2025-05-09 16:44:50,534 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:50,542 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：提交订单
+INFO - 2025-05-09 16:44:50,542 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/placeAnOrder
+INFO - 2025-05-09 16:44:50,542 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:50,542 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：详情页面选择规格，提交订单
+INFO - 2025-05-09 16:44:50,542 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:50,542 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:50,542 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'goods_id': '18382788819', 'number': 2, 'propertyChildIds': '2:9', 'inviter_id': 127839112, 'price': '128', 'freight_insurance': '0.00', 'discount_code': '002399', 'consignee_info': {'name': '张三', 'phone': 13800000000, 'address': '北京市海淀区西三环北路74号院4栋3单元1008'}}}
+INFO - 2025-05-09 16:44:50,558 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "crateTime": "2025-05-09 16:44:50",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u63d0\u4ea4\u8ba2\u5355\u6210\u529f",
+  "orderNumber": "001353649484165527495",
+  "translate_language": "zh-CN",
+  "userId": "0522349556374769536"
+}
+
+INFO - 2025-05-09 16:44:50,560 - apiutil_business.py:170 -[apiutil_business:extract_data] - json提取到参数：{'orderNumber': '001353649484165527495'}
+INFO - 2025-05-09 16:44:50,560 - apiutil_business.py:170 -[apiutil_business:extract_data] - json提取到参数：{'userId': '0522349556374769536'}
+INFO - 2025-05-09 16:44:50,560 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '提交订单成功'}}]
+INFO - 2025-05-09 16:44:50,560 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '提交订单成功'}，等于预期结果：{'message': '提交订单成功'}
+INFO - 2025-05-09 16:44:50,560 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:50,576 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：订单支付
+INFO - 2025-05-09 16:44:50,576 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/orderPay
+INFO - 2025-05-09 16:44:50,576 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:50,576 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：订单支付
+INFO - 2025-05-09 16:44:50,576 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:50,576 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:50,576 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '001353649484165527495', 'userId': '0522349556374769536', 'timeStamp': '1746780290'}}
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "createTime": "2025-05-09 16:44:50",
+  "error": "",
+  "error_code": "0000",
+  "message": "\u8ba2\u5355\u652f\u4ed8\u6210\u529f",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:50,598 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'message': '订单支付成功'}}]
+INFO - 2025-05-09 16:44:50,598 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'message': '订单支付成功'}，等于预期结果：{'message': '订单支付成功'}
+INFO - 2025-05-09 16:44:50,598 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：校验订单状态
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/checkOrderStatus
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：post
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：校验商品订单状态
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 16:44:50,598 - sendrequest.py:154 -[sendrequest:run_main] - 请求参数：{'json': {'orderNumber': '001353649484165527495', 'timeStamp': '1746780290'}}
+INFO - 2025-05-09 16:44:50,612 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "error": "",
+  "error_code": "",
+  "queryTime": "2025-05-09 16:44:50",
+  "status": "0",
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 16:44:50,612 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'eq': {'status': '0'}}]
+INFO - 2025-05-09 16:44:50,612 - assertions.py:68 -[assertions:equal_assert] - 相等断言成功：接口实际结果：{'status': '0'}，等于预期结果：{'status': '0'}
+INFO - 2025-05-09 16:44:50,612 - assertions.py:198 -[assertions:assert_result] - 测试成功
+INFO - 2025-05-09 17:15:18,680 - sendrequest.py:142 -[sendrequest:run_main] - 接口名称：商品列表
+INFO - 2025-05-09 17:15:18,680 - sendrequest.py:143 -[sendrequest:run_main] - 请求地址：http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2025-05-09 17:15:18,680 - sendrequest.py:144 -[sendrequest:run_main] - 请求方式：Get
+INFO - 2025-05-09 17:15:18,680 - sendrequest.py:145 -[sendrequest:run_main] - 测试用例名称：获取商品列表
+INFO - 2025-05-09 17:15:18,680 - sendrequest.py:146 -[sendrequest:run_main] - 请求头：{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': 'AC4aA2A3Eab9f6Eb981d8f5cC6C7a'}
+INFO - 2025-05-09 17:15:18,680 - sendrequest.py:147 -[sendrequest:run_main] - Cookie：None
+INFO - 2025-05-09 17:15:18,680 - sendrequest.py:157 -[sendrequest:run_main] - 请求参数：{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2025-05-09 17:15:18,686 - sendrequest.py:108 -[sendrequest:send_request] - 接口返回信息：{
+  "api_info": "today:21 max:10000 all[90=21+33+36];expires:2030-12-31",
+  "cache": 0,
+  "error_code": "0000",
+  "goodsList": [
+    {
+      "goodsId": "18382788819",
+      "goods_count": "233",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg",
+      "goods_name": "\u30102\u4ef6\u5957\u3011\u5957\u88c5\u79cb\u51ac\u65b0\u6b3e\u4eff\u736d\u5154\u6bdb\u9489\u73e0\u76ae\u8349\u6bdb\u6bdb\u77ed\u5916\u5957\u52a0\u539a\u5927\u8863\u5973\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe599.00"
+    },
+    {
+      "goodsId": "33809635011",
+      "goods_count": "521",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg",
+      "goods_name": "\u597d\u5947\u5c0f\u68ee\u6797\u5fc3\u94bb\u88c5\u7eb8\u5c3f\u88e4M22\u62c9\u62c9\u88e4L18/XL14\u8d85\u8584\u900f\u6c14\u88e4\u578b\u5c3f\u4e0d\u6e7f 1\u4ef6\u88c5",
+      "original_price": "",
+      "unit_price": "\uffe5108.00"
+    },
+    {
+      "goodsId": "56996760797",
+      "goods_count": "1181",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u51bb\u5e72\u9e21\u5c0f\u80f8\u6574\u5757\u589e\u80a5\u8425\u517b\u53d1\u816e\u72d7\u72d7\u96f6\u98df\u65b0\u624b\u517b\u732b\u96f6\u98df\u5e7c\u732b\u96f6\u98df100g",
+      "original_price": "",
+      "unit_price": "\uffe517.80"
+    },
+    {
+      "goodsId": "82193785267",
+      "goods_count": "3000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u81ea\u8425\u3011ISB\u4f0a\u73ca\u5a1c\u610f\u5927\u5229\u6c34\u679c\u7cfb\u5217\u5ba0\u7269\u72ac\u732b\u6c90\u6d74\u9732\u9664\u81ed\u9999\u6ce2\u62a4\u6bdb\u7d20",
+      "original_price": "",
+      "unit_price": "\uffe5650.00"
+    },
+    {
+      "goodsId": "74190550836",
+      "goods_count": "1000+",
+      "goods_image": "https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg",
+      "goods_name": "\u3010\u65b0\u54c1\u96f60CM\u5d4c\u5165\u5f0f\u3011\u6d77\u5c14\u7535\u51b0\u7bb1410L\u5bb6\u7528\u6cd5\u5f0f\u56db\u95e8\u591a\u95e8\u5b98\u65b9\u6b63\u54c1",
+      "original_price": "",
+      "unit_price": "\uffe55746.00"
+    }
+  ],
+  "reason": "",
+  "request_id": "request_id",
+  "secache": "c98b29872e8a4b28859db207944ba817",
+  "secache_date": "2025-05-09 16:28:42",
+  "secache_time": 1746779322000,
+  "translate_language": "zh-CN"
+}
+
+INFO - 2025-05-09 17:27:41,112 - apiutil_business.py:197 -[apiutil_business:extract_data_list] - json提取到参数：{'goodsIds': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2025-05-09 17:28:51,890 - assertions.py:170 -[assertions:assert_result] - yaml文件预期结果：[{'contains': {'error_code': '0000'}}]
+INFO - 2025-05-09 17:28:51,890 - assertions.py:45 -[assertions:contains_assert] - 字符串包含断言成功：预期结果【0000】,实际结果【0000】
+INFO - 2025-05-09 17:28:51,890 - assertions.py:198 -[assertions:assert_result] - 测试成功
