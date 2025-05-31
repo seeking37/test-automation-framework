@@ -23,13 +23,13 @@ dd_msg = False
 
 # 文件路径
 FILE_PATH = {
-    'CONFIG': os.path.join(DIR_BASE, 'conf/config.ini'),
+    'CONFIG': os.path.join(DIR_BASE, 'conf', 'config.ini'),
     'LOG': os.path.join(DIR_BASE, 'logs'),
-    'YAML': os.path.join(DIR_BASE),
-    'TEMP': os.path.join(DIR_BASE, 'report/temp'),
-    'TMR': os.path.join(DIR_BASE, 'report/tmreport'),
+    'YAML': DIR_BASE,
+    'TEMP': os.path.join(DIR_BASE, 'report', 'temp'),
+    'TMR': os.path.join(DIR_BASE, 'report', 'tmreport'),
     'EXTRACT': os.path.join(DIR_BASE, 'extract.yaml'),
-    'XML': os.path.join(DIR_BASE, 'data/sql'),
+    'XML': os.path.join(DIR_BASE, 'data', 'sql'),
     'RESULTXML': os.path.join(DIR_BASE, 'report'),
     'EXCEL': os.path.join(DIR_BASE, 'data', '测试数据.xls')
 }

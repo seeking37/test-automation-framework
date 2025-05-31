@@ -9,8 +9,8 @@ import datetime
 
 log_path = setting.FILE_PATH["LOG"]
 if not os.path.exists(log_path): 
-    os.mkdir(log_path)
-logfile_name = log_path + r"\test.{}.logs".format(time.strftime("%Y%m%d"))
+    os.makedirs(log_path, exist_ok=True)
+logfile_name = os.path.join(log_path, f"test.{time.strftime('%Y%m%d')}.logs")
 
 
 class RecordLog:
@@ -31,13 +31,14 @@ class RecordLog:
         files = os.listdir(log_path)
         for file in files:
             if os.path.splitext(file)[1]:
-                filepath = log_path + "\\" + file
-                file_create_time = os.path.getctime(filepath)  # 获取文件创建时间,返回时间戳
-                # dateArray = datetime.datetime.fromtimestamp(file_createtime) #标准时间格式
-                # print(dateArray.strftime("%Y--%m--%d %H:%M:%S"))
-                if file_create_time < before_date:
-                    os.remove(filepath)
-                else:
+                filepath = os.path.join(log_path, file)
+                try:
+                    file_create_time = os.path.getctime(filepath)  # 获取文件创建时间,返回时间戳
+                    # dateArray = datetime.datetime.fromtimestamp(file_createtime) #标准时间格式
+                    # print(dateArray.strftime("%Y--%m--%d %H:%M:%S"))
+                    if file_create_time < before_date:
+                        os.remove(filepath)
+                except FileNotFoundError:
                     continue
 
     def output_logging(self):
