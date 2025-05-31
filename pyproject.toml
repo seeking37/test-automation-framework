@@ -21,3 +21,11 @@ dependencies = [
     "xlrd>=2.0.1",
     "xlutils>=2.0.0",
 ]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["base", "demo", "data", "logs", "conf", "common", "report", "testcase", "mock_server"]
